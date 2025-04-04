@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Galeria</title>
+    <style>
+    /* Estilos generales */
+    body {
+       
+       font-family: 'Poppins', sans-serif;
+       margin: 0;
+       padding: 0;
+       background-color: #7bb2b6;
+       color: #000000;
+       text-align: center;
+    }
+    
+    /* Encabezado */
+    header {
+       background: linear-gradient(to right, #e989e4, #df6d86);
+       padding: 15px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+    
+    .logo img {
+       width: 100px;
+       justify-content: space-between; 
+    }
+    
+    /* Alinear imagen y texto del logo */
+    .logo {
+       display: flex;
+       align-items: center;  /* Alinea verticalmente */
+    }
+    
+    /* Ajustar tamaño del logo */
+    .logo img {
+       height: 50px;  /* Ajusta el tamaño según necesites */
+       width: auto;
+       margin-right: 10px; /* Espacio entre la imagen y el texto */
+    }
+    
+    /* Estilos del nombre del logo */
+    .logo h1 {
+       font-size: 24px;
+       color: white;  /* Ajusta el color según tu diseño */
+       font-weight: bold;
+    }
+    
+    nav ul {
+       list-style: none;
+       padding: 0;
+       margin: 0;
+       display: flex;
+    }
+    
+    nav ul li {
+       margin: 0 15px;
+    }
+    
+    nav ul li a {
+       text-decoration: rgb(1, 1, 7);
+       color: white;
+       font-weight: bold;
+       padding: 10px 15px;
+       border-radius: 5px;
+       transition: 0.3s;
+    }
+    
+    
+    
+    nav ul li a:hover {
+       background: white;
+       color: #050103;
+       }
+      
+    }
+    /* Banner */
+    .banner img {
+       width: 80%;
+       max-height: 400px;
+       object-fit: cover;
+    }
+    
+    /* Íconos */
+    .icons {
+       display: flex;
+       justify-content: center;
+       gap: 20px;
+       padding: 20px 15px;
+    }
+    
+    .icon {
+       background: white;
+       padding: 15px;
+       border-radius: 10px;
+       box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+       cursor: pointer;
+       transition: 0.3s;
+    }
+    .icon:hover {
+       background: #f8bbd0;/*cambia el color al pasar el mouse*/
+    }
+    
+    /* Contenido */
+    iframe {
+       width: 90%;
+       height: 400px;
+       border: none;
+       margin: 20px 0;
+    }
+    
+    /* Botón */
+    .boton {
+       display: inline-block;
+       background: #d81b60;
+       color: white;
+       padding: 10px 20px;
+       border-radius: 5px;
+       text-decoration: none;
+       transition: 0.3s;
+    }
+    
+    .boton:hover {
+       background: #880e4f;
+    }
+    /* Pie de página */
+    footer {
+       background: #85dffa;
+       color: rgb(0, 0, 0);
+       padding: 10px;
+    }
+    .whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.whatsapp:hover {
+  background-color: #1ebe5b;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src = "img/logo.png" alt="Logo ITH" style="width: 100px; height: auto;"> 
+            <h1>Logo ITH</h1>
+          
+        </div>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="servicios.html" title="ir a...">Servicios</a></li>
+            <li><a href="galeria.html"  title="ir...a">Galeria</a></li>
+            <li><a href="Contactos.html"  title="ir a...">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <section class="img">
+           <i> <h1>SALON DE UÑAS ARIA</h1> </i>
+            <img src = "img/arti.webp" alt="Uñas" style="width: 50%; max-height: 200px;">
+
+    <main>
+        <h1>Mi Galería</h1>
+        <p>Explora algunos de mis mejores trabajos, aqui podras ver diferentes tipos de diseños<br>
+        Tambien realizamos lo que es dieños de pies<br>
+    Puedes elegir el diseño, el tamaño el color y la decoracion que gustes.</p>
+    <p>Tipos de manicura más populares
+        Existen numerosos tipos de manicura que varían en términos de técnicas, estilos y resultados. A continuación, se presentan algunos de los tipos de manicura más populares:
+        
+        Manicura francesa. Se caracteriza por pintar las puntas de las uñas en blanco o un tono claro y el resto de la uña con esmalte transparente o rosado. Es un estilo elegante y atemporal.
+        Manicura de gel. Se utiliza un esmalte de gel que se cura bajo una lámpara UV o LED para lograr un acabado duradero y resistente a los golpes. Los esmaltes de gel pueden mantenerse sin descascararse durante varias semanas.
+        Manicura acrílica. Se aplican uñas postizas o extensiones de uñas sobre las uñas naturales para obtener longitud y forma adicionales. Luego, se moldean y se aplican capas de polvo acrílico y líquido para crear una capa dura y duradera.
+        Manicura de porcelana. Similar a la manicura acrílica, se utilizan puntas de porcelana o uñas de porcelana esculpidas para crear extensiones de uñas. La porcelana se adhiere a las uñas naturales utilizando un líquido acrílico y se moldea según la forma deseada.</p>
+
+        <div class="galeria">
+            <img src="img/Diseño1.webp" alt="Uñas decoradas 1"> <br>
+            <br>
+            <br>
+            <br>
+            <marquee scrollamount="20" direction="right" width="500px">
+
+            <img src="img/diseño2.jpeg" alt="Uñas decoradas 2">
+            <img src="img/French.jpeg" alt="Uñas decoradas 3">
+            <img src="img/flor.jpeg" alt="Uñas decoradas 4">
+            <img src="img/Key.webp" alt="Uñas decoradas 5">
+            <img src="img/Rey.jpg" alt="Uñas decoradas 6">
+            <img src="img/win.jpeg" alt="Uñas decoradas 7">
+            <img src="img/Normal.jpeg" alt="Uñas decoradas 8">
+            <img src="img/liz.jpg" alt="Uñas decoradas 9">
+            </marquee>
+
+            <center>
+                <img src="img/biz.jpg" alt="uñas decoradas 10">
+                <br>
+                <br>
+                <br>
+                <br>
+                <marquee scrollamount="20" direction="right" width="500px"
+                <img src="img/color.jpg" alt="uñas decoradas11">
+                
+                    <img src="img/biz.jpg" alt="uñas decoradas 10">
+      
+                  <img src="img/color.jpg"  alt="uñas decoradas 11">
+                </marquee>
+                </center>
+        </div>
+    </main>
+
+    <footer>
+        <p> III BTP ROBOTICA Seccion 9|dafne.alvarado@tecnico-honduras.com <a href="Contactos.html">Completa el formulario</a>
+     </footer>
+
+     <a href="https://wa.me/50489400512" class="whatsapp" target="_blank">
+      Chat con nosotros </a>
+ 
+
+    
+</body>
+</html>
